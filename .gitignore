@@ -1,0 +1,55 @@
+# Visual Studio / MSBuild
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+arm64/
+ARM/
+
+# Native compiler and linker outputs
+*.dll
+*.exe
+*.exp
+*.lib
+*.ilk
+*.iobj
+*.ipdb
+*.pdb
+*.dmp
+*.obj
+*.o
+*.a
+*.so
+*.gch
+
+# Generated intermediate files
+*.idb
+*.pch
+*.tlog
+*.lastbuildstate
+*.log
+
+# CMake and other build-system output
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+_build/
+build/
+out/
+
+# Test and coverage output
+*.coverage
+coverage/
+
+# Local Claude settings
+.claude/settings.local.json
